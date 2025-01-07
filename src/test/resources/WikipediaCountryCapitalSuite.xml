@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WikipediaCountryCapitalSuite" thread-count="3" parallel="tests">
+
+    <listeners>
+        <listener class-name="org.wikipedia.listeners.TestListenerAdaptor"/>
+    </listeners>
+
+    <!-- Test for Chrome -->
+    <test name="ChromeTest">
+        <parameter name="browserName" value="Chrome" />
+        <parameter name="browserVersion" value="131" />
+        <parameter name="osVersion" value="Windows 11" />
+        <parameter name="platformName" value="LambdaTest" />
+        <classes>
+            <class name="org.wikipedia.tests.CountryCapitalSearchTest" />
+        </classes>
+    </test>
+
+    <!-- Test for Firefox -->
+    <test name="FireFoxTest">
+        <parameter name="browserName" value="Firefox" />
+        <parameter name="browserVersion" value="132" />
+        <parameter name="osVersion" value="Windows 11" />
+        <parameter name="platformName" value="LambdaTest" />
+        <classes>
+            <class name="org.wikipedia.tests.CountryCapitalSearchTest" />
+        </classes>
+    </test>
+
+    <!-- Test for Edge -->
+    <test name="EdgeTest">
+        <parameter name="browserName" value="Edge" />
+        <parameter name="browserVersion" value="131" />
+        <parameter name="osVersion" value="Windows 11" />
+        <parameter name="platformName" value="LambdaTest" />
+        <classes>
+            <class name="org.wikipedia.tests.CountryCapitalSearchTest" />
+        </classes>
+    </test>
+
+</suite>
+
