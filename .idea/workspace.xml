@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a8c2d84-cead-4419-ab64-b36ced668b50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wikipedia/driverfactory/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wikipedia/listeners/TestListenerAdaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wikipedia/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wikipedia/utilities/ReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wikipedia/utilities/ScreenShotUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wikipedia/utilities/WaitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/wikipedia/driverconfig/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/wikipedia/testdata/SearchDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/wikipedia/tests/CountryCapitalSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/WikipediaCountryCapitalSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="9a8c2d84-cead-4419-ab64-b36ced668b50" name="Changes" comment="wikipedia search framework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1736235317365</updated>
     </task>
+    <task id="LOCAL-00001" summary="wikipedia search framework">
+      <created>1736263979206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736263979206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wikipedia search framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="wikipedia search framework" />
   </component>
 </project>
