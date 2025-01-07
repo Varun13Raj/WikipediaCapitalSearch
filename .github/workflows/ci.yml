@@ -3,14 +3,14 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Trigger on push to main branch
+      - main  # Trigger on push to the main branch
   pull_request:
     branches:
-      - main  # Trigger on pull request targeting main branch
+      - main  # Trigger on pull request targeting the main branch
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Use the latest version of Ubuntu
+    runs-on: windows-latest  # Use Windows as the runner
 
     steps:
       - name: Checkout repository
@@ -24,7 +24,7 @@ jobs:
       - name: Cache Maven dependencies
         uses: actions/cache@v2
         with:
-          path: ~/.m2/repository  # Cache Maven dependencies to speed up builds
+          path: C:\Users\runneradmin\.m2\repository  # Cache Maven dependencies on Windows
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}  # Cache key based on pom.xml file
           restore-keys: |
             ${{ runner.os }}-maven-
@@ -40,5 +40,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: test-results
-          path: target/surefire-reports  # Adjust path to where your test results are generated
-
+          path: target\surefire-reports  # Adjust path to where your test results are generated
