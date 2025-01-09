@@ -33,7 +33,7 @@ public class BaseTest {
         context.setAttribute("driver", driver);
     }
 
-    @BeforeTest
+    @BeforeMethod
     public void getUrl() {
         if (driver == null) {
             throw new IllegalStateException("Driver is not initialized. Check @BeforeTest setup.");
