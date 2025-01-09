@@ -30,12 +30,14 @@ public class BaseTest {
         driver.manage().window().maximize();
         searchPage = new SearchPage(driver);
 
-        // Set WebDriver in context for listener
         context.setAttribute("driver", driver);
     }
 
-    @BeforeMethod
+    @BeforeTest
     public void getUrl() {
+        if (driver == null) {
+            throw new IllegalStateException("Driver is not initialized. Check @BeforeTest setup.");
+        }
         driver.get("https://en.wikipedia.org/wiki/Main_Page");
     }
 
