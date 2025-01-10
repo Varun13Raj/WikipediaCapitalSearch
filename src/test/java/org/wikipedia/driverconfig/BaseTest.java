@@ -13,7 +13,7 @@ public class BaseTest {
     public WebDriver driver;
 
     @Parameters({"browserName", "browserVersion", "osVersion", "platformName"})
-    @BeforeTest
+    @BeforeClass
     public void setUp(
             @Optional("Chrome") String browserName,
             @Optional("latest") String browserVersion,
