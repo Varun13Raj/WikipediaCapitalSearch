@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a8c2d84-cead-4419-ab64-b36ced668b50" name="Changes" comment="wikipedia search framework">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/wikipedia/driverconfig/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/wikipedia/driverconfig/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/wikipedia/tests/CountryCapitalSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/wikipedia/tests/CountryCapitalSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736493193315</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="wikipedia search framework">
+      <created>1736494416696</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736494416696</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

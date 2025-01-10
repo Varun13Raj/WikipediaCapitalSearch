@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 
 public class BaseTest {
     public SearchPage searchPage;
-    protected WebDriver driver;
+    public WebDriver driver;
 
     @Parameters({"browserName", "browserVersion", "osVersion", "platformName"})
     @BeforeTest

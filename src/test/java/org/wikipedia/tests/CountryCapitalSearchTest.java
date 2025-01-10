@@ -5,6 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.wikipedia.driverconfig.BaseTest;
 import org.wikipedia.listeners.TestListenerAdaptor;
+import org.wikipedia.pages.SearchPage;
 import org.wikipedia.testdata.SearchDataProvider;
 
 @Listeners(TestListenerAdaptor.class)
