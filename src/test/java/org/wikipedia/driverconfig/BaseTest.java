@@ -29,17 +29,18 @@ public class BaseTest {
         driver = WebDriverManager.getDriver(browserName, browserVersion, osVersion, platformName);
         driver.manage().window().maximize();
         searchPage = new SearchPage(driver);
-
         context.setAttribute("driver", driver);
+        driver.get("https://en.wikipedia.org/wiki/Main_Page");
+        System.out.println("launching driver " );
     }
 
-    @BeforeMethod
-    public void getUrl() {
-        if (driver == null) {
-            throw new IllegalStateException("Driver is not initialized. Check @BeforeTest setup.");
-        }
-        driver.get("https://en.wikipedia.org/wiki/Main_Page");
-    }
+//    @BeforeMe
+//    public void getUrl() {
+//        if (driver == null) {
+//            throw new IllegalStateException("Driver is not initialized. Check @BeforeTest setup.");
+//        }
+//
+//    }
 
     @AfterSuite
     public void tearDown() {
