@@ -12,6 +12,7 @@ public class CountryCapitalSearchTest extends BaseTest {
 
     @Test(dataProvider = "CountryCapitalData", dataProviderClass = SearchDataProvider.class)
     public void testSearchCapital(String country, String expectedCapital) {
+        System.out.println(country + expectedCapital);
         searchPage.searchForCountry(country);
         String actualCapital = searchPage.getCapitalOfCountry();
         Assert.assertTrue(actualCapital.contains(expectedCapital),
